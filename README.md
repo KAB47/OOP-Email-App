@@ -34,7 +34,7 @@ This project is a simple **Email Simulator** built using Python's **Tkinter** li
 2. **Run the Program**
    - Run the application using your preferred IDE or the command line interface:
      ```bash
-     python email_simulator_gui.py
+     python main.py
      ```
 
 3. **Interact with the Application**
