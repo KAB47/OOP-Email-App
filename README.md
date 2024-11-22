@@ -43,14 +43,3 @@ This project is a simple **Email Simulator** built using Python's **Tkinter** li
    - **Quit**: Click the "Quit" button to close the application.
 
 ---
-
-## How to Use the Program
-
-1. Launch the program by running `email_simulator_gui.py`.
-2. Click the "Populate Inbox" button to generate sample emails.
-3. Select an email from the list and click "Read Email" to mark it as read.
-4. Continue managing your inbox or click "Quit" to exit the application.
-
-
-
-
