@@ -40,6 +40,6 @@ This project is a simple **Email Simulator** built using Python's **Tkinter** li
 3. **Interact with the Application**
    - **Populate Inbox**: Click the "Populate Inbox" button to add sample emails to the inbox. Each email will display its subject and "Unread" status.
    - **Read Email**: Select an email from the list by clicking on it. Click the "Read Email" button to mark the selected email as "Read". A confirmation message will appear, and the inbox will update automatically.
-   - **Quit**: Click the "Quit" button to close the application.
+   - **Quit**: Click the "Stop" button on your IDE or press 'Ctrl' + 'C' to close the application.
 
 ---
