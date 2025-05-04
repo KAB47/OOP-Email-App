@@ -2,7 +2,7 @@ class EmailSimulatorGUI:
 
 
     def __init__(self, master):
-        # Initialize the main window
+        # Initialise the main window
         self.master = master
         self.master.title("Email Simulator GUI")
 
@@ -20,7 +20,7 @@ class EmailSimulatorGUI:
         self.quit_button = tk.Button(master, text="Quit", command=self.master.destroy)
         self.quit_button.pack(pady=5)
 
-        # Initialize the EmailSimulator instance
+        # Initialise the EmailSimulator instance
         self.email_simulator = EmailSimulator()
 
 
@@ -58,13 +58,13 @@ class Email:
 
 
     def __init__(self, subject_line):
-        # Initialize an email with a subject line and unread status
+        # Initialise an email with a subject line and unread status
         self.subject_line = subject_line
         self.has_been_read = False
 
 class EmailSimulator:
     def __init__(self):
-        # Initialize an empty inbox
+        # Initialise an empty inbox
         self.inbox = []
 
 
@@ -82,7 +82,7 @@ class EmailSimulator:
 if __name__ == "__main__":
     # Create the main Tkinter window
     root = tk.Tk()
-    # Initialize the EmailSimulatorGUI
+    # Initialise the EmailSimulatorGUI
     app = EmailSimulatorGUI(root)
     # Start the Tkinter event loop
     root.mainloop()
